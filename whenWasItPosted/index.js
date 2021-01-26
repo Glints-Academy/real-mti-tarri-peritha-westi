@@ -1,6 +1,10 @@
 const whenWasItPosted = date => {
   // do code here
-
+  const dateNow = Date.now()
+  const day = 24*60*60*1000
+  const week = 7*day
+  const month = 30*day
+  const year = 366*day
 }
 
 

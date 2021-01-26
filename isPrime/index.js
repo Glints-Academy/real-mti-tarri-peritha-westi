@@ -1,6 +1,16 @@
 const isPrime = num => {
   // do code here
-
+  let A = 0
+  for ( let i = 2; i <= Math.sqrt(num); i++) {
+    if (num%i == 0) {
+      A
+    }
+  }
+  if (num < 2) {
+    return `${num} IS NOT A PRIME`
+  } else if (A == 0){
+    return `${num} IS A PRIME`
+  }
 }
 
 // do not change this code below
